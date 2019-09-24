@@ -12,13 +12,14 @@ namespace 五子棋
     {
         private static readonly int IMG_WIDTH = 35;
 
-        public Piece(int x,int y)
-        {   
+        public Piece(int x, int y)
+        {
             //網路找使用方式MSDN，找型態使用語法 (微軟官方手冊
             this.BackColor = Color.Transparent;
             this.Location = new Point(x - IMG_WIDTH / 2, y - IMG_WIDTH / 2);
-            
+
             this.Size = new Size(IMG_WIDTH, IMG_WIDTH);
         }
+    public abstract PieceType GetPieceType();
     }
 }

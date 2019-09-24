@@ -8,6 +8,6 @@ namespace 五子棋
 {
     enum PieceType
     {
-        BLACK,WHITE
+        BLACK,WHITE,NONE
     }
 }
