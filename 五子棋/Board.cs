@@ -49,6 +49,7 @@ namespace 五子棋
 
             if (pieces[nodeId.X, nodeId.Y] != null)
                 return null;
+
             Point formPos=convertToFromPosition(nodeId);
 
             if (type == PieceType.BLACK)

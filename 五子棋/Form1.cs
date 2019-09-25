@@ -34,11 +34,12 @@ namespace 五子棋
                     if (game.Winner == PieceType.BLACK)
                     {
                         MessageBox.Show("黑色獲勝");
-
+                        Application.Restart();
                     }
                     if (game.Winner == PieceType.WHITE)
                     {
                         MessageBox.Show("白色獲勝");
+                        Application.Restart();
                     }
                 }
             }
